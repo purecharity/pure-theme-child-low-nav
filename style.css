@@ -1,5 +1,5 @@
 /*
- Theme Name:   Pure Theme Child
+ Theme Name:   Pure Theme with Subnav
  Theme URI:    http://purecharitywpdemo.com/
  Description:  Pure Charity Child Theme
  Author:       Todd Hiestand
@@ -12,3 +12,19 @@
 */
 
 /* Add custom styles here */ 
+
+
+.nav-pin {
+	float: left;
+	background: #fff !important;
+}
+
+.navigation ul.menu {
+    position: inherit; 
+    top: inherit; 
+    left: inherit;
+    -webkit-transform: inherit;
+    -ms-transform: inherit;
+     transform: inherit;
+     text-align: center;
+}
